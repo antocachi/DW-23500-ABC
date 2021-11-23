@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: o;
+}
+/*MENU*/
+header{
+    background-position: center;
+    background-size: cover;
+}
+.menu {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F2EEED;
+}
+.menu__lista{
+display: flex;
+justify-content: space-evenly;
+width: 1440%;
+height: 66,58%;
+}
+.menu__item{
+    list-style: none;
+}
+.menu__item a{
+    text-decoration: none;
+    color: #616160;
+    font-family:Arial, sans-serif
+
+}
+.hero{
+    background-image: url(../Recursos/Inicio_page-0001.jpg);
+    background-position:center; 
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2EEED;
+}
+    .logo__footerinstragram{
+        display: flex;
+        justify-content: space-evenly;
+        background-position: center;
+        width: 1440%;
+        height: 66,58%;
+    }
+    .whatsapp__footer{
+        position: relative;
+        justify-content: space-evenly;
+        display: inline-block;
+        left: 35px;
+    }
+    .footer__texto{
+        position: center;
+        display: inline-block;
+        right: 100px;
+        font-family: Arial, sans-serif;
+    .footer__texto a{
+        text-decoration: none;
+    }
+    
+
+
